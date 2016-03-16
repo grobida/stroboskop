@@ -13,19 +13,21 @@
 <glava>
 	<table style="width: 100%;">
 		<tr>
-			<td style="width: 200px;">
+			<td style="width: 200px;" align="right" >
 				Izberi barve:
 			</td>
 			<td style="width: calc(100% - 20px);">
 				<span id="barve"></span> 
-				<input id="novaBarva" type="button" value="Dodaj barvo" />
+				<input id="novaBarva" type="button" value="Dodaj barvo" class="rob senca" />
+				<button id='odstraniBarve' class="rob senca">Odstrani barve</button>
 			</td>
+			
 			<td rowspan="2" style="width: 300px;">
-				<button id="start">Zaženi stroboskop</button>
+				<button id="start" class="rob senca">Zaženi stroboskop</button>
 			</td>
 		</tr>
 		<tr>
-			<td>
+			<td align="right" >
 				Časovni interval: 
 			</td>
 			<td>
@@ -38,7 +40,7 @@
 </glava>
 
 <!-- TELO -->
-<telo id="stroboskop"></telo>
+<telo id="stroboskop" class="rob senca"></telo>
 
 </body>
 </html>
